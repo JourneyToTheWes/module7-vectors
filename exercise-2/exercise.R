@@ -23,6 +23,6 @@ large <- z[value.is.large]
 ### Bonus ###
 
 # Replace the values in `z` that are larger than 5 with the number 5
-
+z[z>5] <- 5
 
 # Replace every other value in `z` with the number 0
